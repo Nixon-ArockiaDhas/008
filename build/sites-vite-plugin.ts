@@ -180,7 +180,12 @@ export function sites({ mockAuth = true } = {}): Plugin {
       await rm(outputDirectory, { recursive: true, force: true });
       await mkdir(outputDirectory, { recursive: true });
 
-      await cp(hostingConfig, resolve(outputDirectory, "hosting.json"));
+      // `.openai/hosting.json` is Sites-specific and may be absent in Vercel
+      // checkouts. Keep the Vinext build usable without making that optional
+      // deployment metadata a hard build dependency.
+      if (await exists(hostingConfig)) {
+        await cp(hostingConfig, resolve(outputDirectory, "hosting.json"));
+      }
       if (await exists(drizzleSource)) {
         await cp(drizzleSource, resolve(outputDirectory, "drizzle"), {
           recursive: true,

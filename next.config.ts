@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Keep development runs focused on the application source. This disables
+  // Next's optional editor/agent instruction-file generation.
+  agentRules: false,
 };
 
 export default nextConfig;
