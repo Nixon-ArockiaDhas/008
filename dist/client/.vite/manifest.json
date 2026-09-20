@@ -1,0 +1,156 @@
+{
+  "_Icon-D0zGVybZ.js": {
+    "file": "_next/static/chunks/Icon-D0zGVybZ.js",
+    "name": "Icon",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "_SectionHeader-CHpMxCnU.js": {
+    "file": "_next/static/chunks/SectionHeader-CHpMxCnU.js",
+    "name": "SectionHeader",
+    "imports": [
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "_createLucideIcon-BrNKFXBt.js": {
+    "file": "_next/static/chunks/createLucideIcon-BrNKFXBt.js",
+    "name": "createLucideIcon",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_Icon-D0zGVybZ.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "_framework-D_rUT4EX.js": {
+    "file": "_next/static/chunks/framework-D_rUT4EX.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js"
+    ]
+  },
+  "_rolldown-runtime-C60lm6uB.js": {
+    "file": "_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+    "name": "rolldown-runtime"
+  },
+  "_utils-Ra40nm5m.js": {
+    "file": "_next/static/chunks/utils-Ra40nm5m.js",
+    "name": "utils",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/site/FAQ.tsx": {
+    "file": "_next/static/chunks/FAQ-BuN-zDbZ.js",
+    "name": "FAQ",
+    "src": "components/site/FAQ.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_SectionHeader-CHpMxCnU.js",
+      "_utils-Ra40nm5m.js",
+      "_createLucideIcon-BrNKFXBt.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/site/Navbar.tsx": {
+    "file": "_next/static/chunks/Navbar-DrL3nRdm.js",
+    "name": "Navbar",
+    "src": "components/site/Navbar.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_utils-Ra40nm5m.js",
+      "node_modules/vinext/dist/shims/image.js",
+      "_createLucideIcon-BrNKFXBt.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/site/NetworkStats.tsx": {
+    "file": "_next/static/chunks/NetworkStats-CfIkWeEB.js",
+    "name": "NetworkStats",
+    "src": "components/site/NetworkStats.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "components/site/Rewards.tsx": {
+    "file": "_next/static/chunks/Rewards-HTNs72Qa.js",
+    "name": "Rewards",
+    "src": "components/site/Rewards.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_SectionHeader-CHpMxCnU.js",
+      "_createLucideIcon-BrNKFXBt.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/image.js": {
+    "file": "_next/static/chunks/image-BBrD8_C2.js",
+    "name": "image",
+    "src": "node_modules/vinext/dist/shims/image.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
+    "file": "_next/static/chunks/app-route-prefetch-policy-BMTkJziS.js",
+    "name": "app-route-prefetch-policy",
+    "src": "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:vinext-app-browser-entry"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "_next/static/chunks/layout-segment-context-ivFGkY4U.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/streamed-icons.js": {
+    "file": "_next/static/chunks/streamed-icons-B77DYGFv.js",
+    "name": "streamed-icons",
+    "src": "node_modules/vinext/dist/shims/streamed-icons.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-D_rUT4EX.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "_next/static/chunks/index-xNRa1dWo.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-D_rUT4EX.js"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
+      "virtual:vinext-app-browser-entry",
+      "components/site/Rewards.tsx",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "_Icon-D0zGVybZ.js",
+      "components/site/NetworkStats.tsx",
+      "node_modules/vinext/dist/shims/streamed-icons.js",
+      "node_modules/vinext/dist/shims/image.js",
+      "components/site/FAQ.tsx",
+      "components/site/Navbar.tsx"
+    ]
+  }
+}

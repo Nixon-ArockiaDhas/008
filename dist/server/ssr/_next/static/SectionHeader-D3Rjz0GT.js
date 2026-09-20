@@ -1,0 +1,1 @@
+import{f as e}from"../../index.js";var t=e();function n({eyebrow:e,title:n,copy:r,align:i=`left`}){return(0,t.jsxs)(`header`,{className:`section-header section-header--${i}`,children:[e&&(0,t.jsx)(`p`,{className:`eyebrow`,children:e}),(0,t.jsx)(`h2`,{children:n}),r&&(0,t.jsx)(`p`,{className:`section-copy`,children:r})]})}export{n as t};
