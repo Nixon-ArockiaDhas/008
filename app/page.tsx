@@ -8,10 +8,13 @@ import { NetworkStats } from "@/components/site/NetworkStats";
 import { Rewards } from "@/components/site/Rewards";
 import { FAQ } from "@/components/site/FAQ";
 import { Footer } from "@/components/site/Footer";
+import { AppCTA } from "@/components/site/AppCTA";
+import { SiteMotion } from "@/components/site/SiteMotion";
 
 export default function Home() {
   return (
     <main>
+      <SiteMotion />
       <Navbar />
       <Hero />
       <Features />
@@ -19,6 +22,7 @@ export default function Home() {
       <Testimonials />
       <Marketing />
       <NetworkStats />
+      <AppCTA />
       <Rewards />
       <FAQ />
       <Footer />

@@ -17,7 +17,7 @@ export function Markets() {
         <SectionHeader eyebrow="Markets we cover" title="Built for the businesses around you." copy="From your neighbourhood salon to your favourite bakery, 008Hub helps local businesses build lasting customer relationships." />
         <div className="market-stack">
           {markets.map(({ label, title, copy, benefit, Icon, position }, index) => (
-            <article className="market-card" key={title} style={{ "--stack-index": index } as React.CSSProperties}>
+            <article className="market-card" key={title} data-reveal style={{ "--stack-index": index } as React.CSSProperties}>
               <div className="market-card__content">
                 <div className="market-card__label"><Icon aria-hidden="true" size={17} />{label}</div>
                 <h3>{title}</h3>

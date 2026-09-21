@@ -18,7 +18,7 @@ export function NetworkStats() {
   }, []);
   return (
     <section className={`network-section ${visible ? "is-visible" : ""}`} ref={ref} aria-labelledby="network-title">
-      <div className="shell network-shell">
+      <div className="shell network-shell" data-reveal>
         <div className="network-copy"><p className="eyebrow">008Hub network</p><h2 id="network-title">One local network.<br /><span>Growing every day.</span></h2></div>
         <div className="stats-grid"><PlaceholderStat value="XX,XXX+" label="People Connected" /><PlaceholderStat value="XX+" label="Lines of Business Covered" /></div>
       </div>

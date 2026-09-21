@@ -7,7 +7,7 @@ type SectionHeaderProps = {
 
 export function SectionHeader({ eyebrow, title, copy, align = "left" }: SectionHeaderProps) {
   return (
-    <header className={`section-header section-header--${align}`}>
+    <header className={`section-header section-header--${align}`} data-reveal>
       {eyebrow && <p className="eyebrow">{eyebrow}</p>}
       <h2>{title}</h2>
       {copy && <p className="section-copy">{copy}</p>}
