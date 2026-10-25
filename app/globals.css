@@ -104,7 +104,7 @@ a {
   height: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: auto 1fr;
   align-items: center;
   gap: 28px;
 }
@@ -119,6 +119,7 @@ a {
 .desktop-nav {
   display: flex;
   align-items: center;
+  justify-self: end;
   gap: clamp(20px, 2.2vw, 34px);
 }
 .desktop-nav a {
@@ -129,10 +130,6 @@ a {
 }
 .desktop-nav a:hover {
   color: var(--brand-blue);
-}
-.desktop-cta {
-  display: flex;
-  justify-content: flex-end;
 }
 .whatsapp-cta {
   min-height: 54px;
@@ -321,8 +318,7 @@ a {
   .site-nav__inner {
     grid-template-columns: 1fr auto;
   }
-  .desktop-nav,
-  .desktop-cta {
+  .desktop-nav {
     display: none;
   }
   .menu-button {
@@ -2276,6 +2272,11 @@ a {
 }
 .reward-modal .whatsapp-cta {
   width: fit-content;
+}
+.campaign-image {
+  height: 100% !important;
+  width: 100% !important;
+  box-shadow: 0 10px 30px rgba(7, 116, 250, 0.2);
 }
 
 @media (max-width: 1050px) {

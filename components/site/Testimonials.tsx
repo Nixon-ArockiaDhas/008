@@ -110,11 +110,10 @@ export function Testimonials() {
               </div>
               <div className="testimonial-card__image">
                 <Image
-                  src="/hero-section-bg.webp"
+                  src="/008Hub.png"
                   alt={`Illustrated local ${item.meta.split(" · ")[0].toLowerCase()} neighbourhood scene`}
                   fill
                   sizes="(max-width: 760px) 90vw, 45vw"
-                  style={{ objectPosition: `${item.position} 100%` }}
                 />
               </div>
             </figure>

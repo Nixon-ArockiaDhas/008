@@ -17,12 +17,19 @@ export function Hero() {
         <h1 id="hero-title">
           <span>Connect ஆகுங்கள்</span>
           <span>உங்கள் Area-உடன்,</span>
-          <span>உங்கள் <strong>Customers-உடன்</strong></span>
+          <span>
+            உங்கள் <strong>Customers-உடன்</strong>
+          </span>
         </h1>
-        <WhatsAppCTA />
+        {/* <WhatsAppCTA /> */}
       </div>
-      <a className="hero__scroll" href="#about" aria-label="Scroll to learn how 008Hub works">
-        <span>Explore</span><i aria-hidden="true" />
+      <a
+        className="hero__scroll"
+        href="#about"
+        aria-label="Scroll to learn how 008Hub works"
+      >
+        <span>Explore</span>
+        <i aria-hidden="true" />
       </a>
     </section>
   );
